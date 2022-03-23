@@ -10,11 +10,11 @@ class Solution {
                     int k=nums.length-1;
                     while(j<k)
                     {
-                            int sum=nums[j]+nums[k];
-                            if(sum==-nums[i])
+                            int sums=nums[j]+nums[k];
+                            if(sumsnums[i])
                                     res.add(Arrays.asList(nums[i],nums[j++],nums[k--]));
-                            else if(sum>-nums[i]) k--;
-                            else if(sum>-nums[i]) j++;
+                            else if(sums>-nums[i]) k--;
+                            else if(sums>-nums[i]) j++;
                             
                     }
             }
