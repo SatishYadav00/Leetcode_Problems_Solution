@@ -19,6 +19,6 @@ class Solution {
              {
                     sb.insert(0,s.pop()).insert(0,"/");
               }
-            return sb.toString();
+            return sb.toString(); //converting into strrring
     }
 }
