@@ -9,7 +9,7 @@ class Solution {
         void find(String cur,int open,int close,List<String> result,int n)
         {
                 
-                if(cur.length()==2*n){
+                if(cur.length()==(2 *n)){
                         result.add(cur);
                         return;
                 }
