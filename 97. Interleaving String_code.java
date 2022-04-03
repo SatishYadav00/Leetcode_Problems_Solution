@@ -9,7 +9,10 @@ class Solution {
         
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
-                if (i == 0 && j == 0) { // since s3.length() = s1.length() + s2.length(), so it'll be true here.
+                if (i == 0 && j == 0) { 
+                    
+                    
+                   // since s3.length() = s1.length() + s2.length(), so it'll be true here.
                     dp[i][j] = true;
                     continue;
                 }
