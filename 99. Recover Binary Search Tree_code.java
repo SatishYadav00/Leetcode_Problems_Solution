@@ -5,9 +5,9 @@ class Solution {
     public void recoverTree(TreeNode root) {
                 
                 inorder(root);
-                        int temp=first.val;
+                        int fla=first.val;
                         first.val=second.val;
-                          second.val=temp;
+                          second.val=flag;
         
     }
         
