@@ -16,7 +16,7 @@ class Solution {
           if(first >=1 && first<=9)
           {
                   
-                    ar[i] += ar[i-1];
+                    ar[i] =ar[i]+ ar[i-1];
             }
                   if(second >=10 && second<=26)
           {
