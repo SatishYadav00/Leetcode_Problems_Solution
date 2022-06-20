@@ -8,7 +8,7 @@ class Solution {
                 stack.pop();
                 result = Math.max(result, i - stack.peek());
             } else {
-                stack.push(i);
+                stack.push(i);//inserting into stack 
             }
         }
         return result;
