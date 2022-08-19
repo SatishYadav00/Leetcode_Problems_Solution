@@ -1,6 +1,6 @@
 class Solution {
     public int numberOfSteps(int num) {
-        int c=0;
+        int count=0;
         while(num!=0)
         {
             if(num%2==0)
@@ -10,8 +10,8 @@ class Solution {
             }
             else{
             num=num-1;}
-            c++;
+            count++;
         }
-        return c;
+        return count;
     }
 }
