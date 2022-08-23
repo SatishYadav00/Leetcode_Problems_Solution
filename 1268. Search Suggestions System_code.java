@@ -15,10 +15,10 @@ class Solution {
         for(char ch : searchWord.toCharArray()){
             key += ch;
 			
-		/*here ceiling value is the least key which is greater than or equal to the given key value If such key is absent, null is returned*/
+		
            String ceiling = tm.ceilingKey(key);   
 		   
-      /*here floor value is returns the greatest key less than or equal to key, or null if there is no such key.*/
+     
           String floor = tm.floorKey(key + "{");     //using opening bracket here to cover the complete range of lowercase characters as we have ASCII value of z is 122 & ASCII value of '{' is 123, In order to cover the range starting from 'm' (ATQ) up till the last char of z, basically it will check in this range m<=words<=m{  (here m is first char of our searchword)
             
             if(ceiling == null || floor == null)    //this condition will avoid null pointer exception 
