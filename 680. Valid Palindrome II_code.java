@@ -1,10 +1,8 @@
 class Solution {
     public boolean validPalindrome(String s) {
-        boolean ans=check(s,0,s.length()-1,false);
-            return ans;
+        boolean result=check(s,0,s.length()-1,false);
+            return result;
     }
-        
-        
         public boolean check(String s,int l,int h,boolean remove)
         {
                 
