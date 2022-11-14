@@ -4,8 +4,8 @@ class Solution {
         int Sum = 0;
         int  prevSum=0; 
 
-        for(int n : nums) {
-            Sum += n;
+        for(int a : nums) {
+            Sum = a + sum;
             if(Set.contains(Sum%k)) {
                 return true;
             }
